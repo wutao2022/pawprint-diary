@@ -1,0 +1,54 @@
+# Dependencies and tooling
+node_modules/
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+*.tsbuildinfo
+.metro-health-check*
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# Local and operating-system files
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+.claude/
+CLAUDE.md
+AGENTS.md
+
+# Native caches and build outputs. Android source remains version controlled.
+/ios/
+android/.gradle/
+android/.kotlin/
+android/build/
+android/app/build/
+android/app/.cxx/
+android/local.properties
+android/keystore.properties
+android/signing/
+*.orig.*
+*.jks
+*.keystore
+!android/app/debug.keystore
+*.p8
+*.p12
+*.key
+*.pem
+*.mobileprovision
+
+# Local project artifacts and internal delivery material
+artifacts/
+output/
+release/
+test-assets/
+tmp/
+tools/
+videos/
+项目开发与最终交付说明.md
+源码构建说明.md

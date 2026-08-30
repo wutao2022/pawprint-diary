@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 私密安全问题
+    url: https://github.com/wutao2022/pawprint-diary/security/advisories/new
+    about: 请勿公开报告可能暴露用户数据或签名材料的问题

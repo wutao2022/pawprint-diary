@@ -1,0 +1,44 @@
+name: Bug 报告
+description: 报告可复现的功能、数据或界面问题
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: checkboxes
+    attributes:
+      label: 提交前确认
+      options:
+        - label: 我已搜索现有 Issue，且没有上传真实病历、联系方式、备份或密钥
+          required: true
+  - type: input
+    attributes:
+      label: APP 版本
+      placeholder: 例如 1.0.1
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Android 设备与系统
+      placeholder: 例如 Pixel 8 / Android 15，或模拟器 API 36
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 复现步骤
+      description: 从全新启动或明确的初始状态开始描述
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 预期结果与实际结果
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: 是否涉及数据库、照片、附件或备份
+      options: [否, 是, 不确定]
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 脱敏后的日志或截图
+      description: 请移除姓名、电话、病历、文件路径、密钥和其他隐私数据
